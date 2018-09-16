@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/transp"
+    >
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="3dp"
+        >
+        <ImageView
+            android:id="@+id/contact_imagemap"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_person_black_24dp"
+            />
+        <TextView
+            android:id="@+id/userNameToFallow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Gerson Valdez"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/numbberToFallow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="829-790-4447"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/IDToFallow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="-sfFFfsfs5fs5dvb"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+</LinearLayout>

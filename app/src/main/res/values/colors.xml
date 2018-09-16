@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00838e</color>
+    <color name="colorPrimaryDark">#005661</color>
+    <color name="colorAccent">#8f0c00</color>
+
+    <!--Palette I selected-->
+
+    <color name="cyan800">#00838e</color>
+    <color name="cyan2">#005661</color>
+    <color name="cyan3">#4fb3be</color>
+    <color name="red">#8f0c00</color>
+    <color name="white">#ffffff</color>
+    <color name="transp">#00ffffff</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="black">#000000</color>
+
+</resources>

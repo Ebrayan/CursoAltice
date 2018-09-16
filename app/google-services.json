@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1063955534706",
+    "firebase_url": "https://evertogether-863ed.firebaseio.com",
+    "project_id": "evertogether-863ed",
+    "storage_bucket": "evertogether-863ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063955534706:android:05a9a05e65e13d94",
+        "android_client_info": {
+          "package_name": "com.example.thebryan.personalsecurityapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063955534706-4ho399henh493ahnkup5gqk0j1llfidm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2zjBEGSZCIKOw5vnJA-R1tkKfDYHxarU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

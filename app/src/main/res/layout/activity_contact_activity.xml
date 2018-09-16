@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityContact"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+
+        <ListView
+            android:id="@+id/myListMycontact"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
+
+<com.getbase.floatingactionbutton.FloatingActionsMenu
+android:layout_gravity="end|bottom"
+    android:id="@+id/expanded_menu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:fab_addButtonSize="normal"
+    app:fab_expandDirection="up"
+    app:fab_addButtonColorNormal="@color/red"
+    app:fab_addButtonColorPressed="@color/black"
+    app:fab_labelsPosition="left"
+    >
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/menu_item_createContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_addButtonSize="mini"
+        app:fab_addButtonColorNormal="@color/cyan3"
+        app:fab_addButtonColorPressed="@color/black"
+        fab:fab_title="Nuevo Contacto"
+
+        app:fab_icon="@drawable/ic_person_black_24dp"
+        />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/menu_item_seleccionarcContacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_labelsPosition="left"
+        app:fab_addButtonSize="mini"
+        app:fab_addButtonColorNormal="@color/cyan3"
+        app:fab_addButtonColorPressed="@color/black"
+        fab:fab_title="Seleccionar de Contactos"
+        android:tooltipText="Nuevo Contacto"
+        app:fab_icon="@drawable/ic_control_point_black_24dp"
+
+        />
+
+</com.getbase.floatingactionbutton.FloatingActionsMenu>
+</android.support.design.widget.CoordinatorLayout>

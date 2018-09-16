@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/cyan800"
+    tools:context=".ActivityIntro">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+
+
+    <ImageView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+         android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:src="@drawable/let_go"
+        />
+
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/cyan800"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <!--style="?metaButtonBarButtonStyle"-->
+            <Button
+                style="?metaButtonBarButtonStyle"
+                android:id="@+id/btn_go_to_signin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sign in"
+                android:textColor="@color/red"
+                />
+            <!--style="?metaButtonBarButtonStyle"-->
+            <Button
+                android:id="@+id/btn_go_to_signup"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="Sign Up"
+                style="?metaButtonBarButtonStyle"
+                />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>
